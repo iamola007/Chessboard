@@ -1,0 +1,16 @@
+.tiles {
+  height: 180px;
+  width: 180px;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.odd-row .tiles:nth-child(odd),
+.even-row .tiles:nth-child(even) {
+  background-color: black;
+}
